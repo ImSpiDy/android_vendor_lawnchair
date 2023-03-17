@@ -7,7 +7,7 @@ android_app_import {
     },
     privileged: true,
     system_ext_specific: true,
-    overrides: ["Home", "Launcher2", "Launcher3", "Launcher3QuickStep", "ParanoidQuickStep", "PixelLauncher", "TrebuchetQuickStep"],
+    overrides: ["Home", "Launcher2", "Launcher3", "Launcher3QuickStep", "ParanoidQuickStep", "PixelLauncher", "TrebuchetQuickStep", "ShadyQuickStep"],
 }
 
 android_app_import {
