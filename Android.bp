@@ -12,10 +12,11 @@ android_app_import {
 
 android_app_import {
     name: "Lawnicons",
-    apk: "app/Lawnicons/Lawnicons.apk",
+    apk: "priv-app/Lawnchair/Lawnicons.apk",
     presigned: true,
     dex_preopt: {
 	enabled: false,
     },
-    system_ext_specific: true,
+    product_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
